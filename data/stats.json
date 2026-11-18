@@ -1,0 +1,297 @@
+{
+  "v": 1,
+  "engine": "1.0.0",
+  "build": {
+    "at": "2026-11-18T05:46:51Z",
+    "version": "2027.1.0",
+    "commit": "68f4897"
+  },
+  "lang": "ar",
+  "dir": "rtl",
+  "totals": {
+    "decks": 1,
+    "slides": 38,
+    "words": 3141,
+    "notes": 38,
+    "notes_ratio": 1,
+    "activities": 3,
+    "styles": 0,
+    "slide_minutes": null,
+    "components": {
+      "cards": 46,
+      "pills": 0,
+      "callouts": 19,
+      "tables": 0,
+      "code": 0,
+      "tokens": 0,
+      "flows": 3,
+      "stats": 2,
+      "bars": 0,
+      "meters": 0,
+      "agendas": 1,
+      "quizzes": 3,
+      "checklists": 2,
+      "prompts": 0,
+      "chats": 0,
+      "tools": 0,
+      "traces": 0,
+      "ladders": 0,
+      "figures": 0,
+      "matrices": 0,
+      "timers": 0,
+      "columns": 24,
+      "images": 0,
+      "drawings": 0,
+      "fragments": 7
+    },
+    "minutes": 180
+  },
+  "decks": [
+    {
+      "deck": "day1",
+      "kind": "day",
+      "label": "اليوم 1",
+      "title": "ما الذي تغيّر، وماذا نفعل به",
+      "slides": 38,
+      "words": 3141,
+      "notes": 38,
+      "notes_ratio": 1,
+      "activities": 3,
+      "styles": 0,
+      "slide_minutes": null,
+      "components": {
+        "cards": 46,
+        "pills": 0,
+        "callouts": 19,
+        "tables": 0,
+        "code": 0,
+        "tokens": 0,
+        "flows": 3,
+        "stats": 2,
+        "bars": 0,
+        "meters": 0,
+        "agendas": 1,
+        "quizzes": 3,
+        "checklists": 2,
+        "prompts": 0,
+        "chats": 0,
+        "tools": 0,
+        "traces": 0,
+        "ladders": 0,
+        "figures": 0,
+        "matrices": 0,
+        "timers": 0,
+        "columns": 24,
+        "images": 0,
+        "drawings": 0,
+        "fragments": 7
+      },
+      "minutes": 180,
+      "sessions": [
+        {
+          "n": 1,
+          "label": "الجلسة 1",
+          "title": "ما الذي تغيّر في المملكة",
+          "slides": 14,
+          "words": 1128,
+          "notes": 14,
+          "notes_ratio": 1,
+          "activities": 1,
+          "styles": 0,
+          "slide_minutes": null,
+          "components": {
+            "cards": 17,
+            "pills": 0,
+            "callouts": 7,
+            "tables": 0,
+            "code": 0,
+            "tokens": 0,
+            "flows": 2,
+            "stats": 1,
+            "bars": 0,
+            "meters": 0,
+            "agendas": 0,
+            "quizzes": 1,
+            "checklists": 1,
+            "prompts": 0,
+            "chats": 0,
+            "tools": 0,
+            "traces": 0,
+            "ladders": 0,
+            "figures": 0,
+            "matrices": 0,
+            "timers": 0,
+            "columns": 9,
+            "images": 0,
+            "drawings": 0,
+            "fragments": 7
+          },
+          "minutes": 90,
+          "lab_minutes": 30
+        },
+        {
+          "n": 2,
+          "label": "الجلسة 2",
+          "title": "الأنظمة الأجنبية، ثم ماذا نفعل",
+          "slides": 19,
+          "words": 1647,
+          "notes": 19,
+          "notes_ratio": 1,
+          "activities": 2,
+          "styles": 0,
+          "slide_minutes": null,
+          "components": {
+            "cards": 22,
+            "pills": 0,
+            "callouts": 10,
+            "tables": 0,
+            "code": 0,
+            "tokens": 0,
+            "flows": 1,
+            "stats": 1,
+            "bars": 0,
+            "meters": 0,
+            "agendas": 0,
+            "quizzes": 2,
+            "checklists": 1,
+            "prompts": 0,
+            "chats": 0,
+            "tools": 0,
+            "traces": 0,
+            "ladders": 0,
+            "figures": 0,
+            "matrices": 0,
+            "timers": 0,
+            "columns": 12,
+            "images": 0,
+            "drawings": 0,
+            "fragments": 0
+          },
+          "minutes": 90,
+          "lab_minutes": 30
+        }
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "id": "LO1",
+      "text": "يحدد كل تغيير في الأنظمة الوطنية والأجنبية الرئيسة بوصفه ملزمًا أو استرشاديًا أو مشروعًا، استنادًا إلى جدول التغييرات وأربعة منتجات مع أسواقها",
+      "level": "Awareness",
+      "slides": [
+        "day1#dated-briefing",
+        "day1#three-forces",
+        "day1#decide-force",
+        "day1#binding-on-whom",
+        "day1#national-map",
+        "day1#pdpl-enforcement",
+        "day1#pdpl-ai-duties",
+        "day1#nca-ai-draft",
+        "day1#nrmf-advisory",
+        "day1#ai-first-draft",
+        "day1#check-ai-first-scope",
+        "day1#foreign-reach",
+        "day1#eu-today",
+        "day1#omnibus-dates",
+        "day1#omnibus-other",
+        "day1#en-18286",
+        "day1#us-instruments",
+        "day1#china-instruments",
+        "day1#treaty",
+        "day1#check-colorado-horizon",
+        "day1#check-whose-duty",
+        "day1#wrap-up"
+      ],
+      "activities": [
+        "day1#check-ai-first-scope-q1",
+        "day1#check-colorado-horizon-q1",
+        "day1#check-whose-duty-q1"
+      ],
+      "sessions": [
+        "day1/1",
+        "day1/2"
+      ],
+      "labs": [
+        "1.1",
+        "1.2"
+      ],
+      "questions": [
+        "q-lo1-advisory-guide",
+        "q-lo1-binding-whom",
+        "q-lo1-four-questions",
+        "q-lo1-binding-not-you",
+        "q-lo1-foreign-reach",
+        "q-lo1-closed-consultation"
+      ],
+      "covered": true
+    },
+    {
+      "id": "LO2",
+      "text": "يحلل ملخصًا أعده الذكاء الاصطناعي لنص تنظيمي جديد، ويتحقق من كل ادعاء فيه بمقارنته بالنص الأصلي، استنادًا إلى نص تنظيمي واحد صدر منذ الإصدار السابق",
+      "level": "Applied",
+      "slides": [
+        "day1#ai-policy-today",
+        "day1#ai-first-draft",
+        "day1#verify-method",
+        "day1#three-slips",
+        "day1#check-ai-first-scope",
+        "day1#debrief-1-1",
+        "day1#wrap-up"
+      ],
+      "activities": [
+        "day1#check-ai-first-scope-q1"
+      ],
+      "sessions": [
+        "day1/1"
+      ],
+      "labs": [
+        "1.1"
+      ],
+      "questions": [
+        "q-lo2-silent-date",
+        "q-lo2-changed-figure",
+        "q-lo2-cited-clause",
+        "q-lo2-partly-wrong",
+        "q-lo2-how-verify"
+      ],
+      "covered": true
+    },
+    {
+      "id": "LO3",
+      "text": "يعدّ مذكرة انطباق تذكر الالتزامات والمسؤولين والتواريخ، استنادًا إلى جدول التغييرات وأنظمة الذكاء الاصطناعي في الوحدة",
+      "level": "Applied",
+      "slides": [
+        "day1#ai-policy-today",
+        "day1#case-qamra",
+        "day1#pdpl-ai-duties",
+        "day1#foreign-reach",
+        "day1#omnibus-dates",
+        "day1#now-next-watch",
+        "day1#owners-review",
+        "day1#note-shape",
+        "day1#worked-line",
+        "day1#check-colorado-horizon",
+        "day1#wrap-up"
+      ],
+      "activities": [
+        "day1#check-colorado-horizon-q1"
+      ],
+      "sessions": [
+        "day1/2"
+      ],
+      "labs": [
+        "1.2"
+      ],
+      "questions": [
+        "q-lo3-next-horizon",
+        "q-lo3-approver",
+        "q-lo3-watch-event",
+        "q-lo3-one-owner",
+        "q-lo3-review-date",
+        "q-lo3-not-applicable",
+        "q-lo3-effective-date"
+      ],
+      "covered": true
+    }
+  ]
+}
