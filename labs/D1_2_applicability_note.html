@@ -13,7 +13,7 @@
   <a href="files/change_table.md" target="_blank"><b>change_table.md</b><span>جدول التغييرات المؤرخ: ثلاثة عشر صفًّا، لكل صف تاريخه ومصدره. عمود «القوة» فارغ.</span></a>
   <a href="files/change_table.csv" download><b>change_table.csv</b><span>الصفوف نفسها في جدول، لتملأ عمود القوة.</span></a>
   <a href="files/note_template.md" target="_blank"><b>note_template.md</b><span>قالب المذكرة: الخلاصة، ثم الآن، والتالي، وقيد المتابعة، ولا ينطبق.</span></a>
-  <a href="files/note_obligations.csv" download><b>note_obligations.csv</b><span>جدول أسطر المذكرة، به تُفحص: النظام، والسوق، والصف، والبند، والالتزام، والقوة، والأفق، والتاريخ، والمسؤول، والمعتمِد، والمراجعة.</span></a>
+  <a href="files/note_obligations.csv" download><b>note_obligations.csv</b><span>جدول أسطر المذكرة، به تُفحص: النظام، والسوق، والصف، والبند، والالتزام، والقوة، والأفق، والتاريخ، والمسؤول، والمعتمِد، والمراجعة. فيه سطر جاهز لكل نظام في كل سوق من أسواقه، بمالك النظام؛ تملأ الباقي.</span></a>
   <a href="files/checklist.md" target="_blank"><b>checklist.md</b><span>قائمة التحقق الخماسية.</span></a>
 </div>
 <div class="callout tip"><b>سياسة المختبر: ذكاء اصطناعي مرشد.</b> اسأل المساعد ليشرح لك مصطلحًا أو مادة في نص أصلي، أو ليسألك عما فاتك. لا تطلب منه أن يكتب المذكرة أو أسطرها: المذكرة عملك، وهي تُقيَّم.</div>
@@ -32,7 +32,7 @@
 
 <div class="step">
   <h3>1 · اقرأ أنظمة الوحدة الأربعة وجدول التغييرات <span class="min">4 دقائق</span></h3>
-  <p>اقرأ <code>qamra_systems.md</code> ثم <code>change_table.md</code>. لكل نظام اكتب أسواقه ودوره: هل الاستوديو مقدم النظام، أم الجهة التي تستعمله، أم أن المورد هو المقدم؟</p>
+  <p>اقرأ <code>qamra_systems.md</code> ثم <code>change_table.md</code>. لكل نظام اكتب أسواقه ودوره: هل الاستوديو مزوّد النظام (<span class="en">provider</span>)، أم الجهة الناشرة التي تستعمله (<span class="en">deployer</span>)، أم أن المورد هو المزوّد؟</p>
 </div>
 
 <div class="step">
@@ -42,7 +42,7 @@
 
 <div class="step">
   <h3>3 · اكتب الالتزامات لكل نظام وسوق مع البند <span class="min">10 دقائق</span></h3>
-  <p>لكل نظام في كل سوق من أسواقه: أي صف ينطبق، وبأي بند، وما الذي يجب فعله. اكتب كل التزام في سطر من <code>note_obligations.csv</code>، واكتب سطر «لا ينطبق» حين لا ينطبق شيء، مع السبب.</p>
+  <p>لكل نظام في كل سوق من أسواقه: أي صف ينطبق، وبأي بند، وما الذي يجب فعله. في <code>note_obligations.csv</code> سطر جاهز لكل نظام في كل سوق: املأه، وانسخه سطرًا جديدًا حين يكون في الخانة أكثر من التزام، واكتب «لا ينطبق» مع السبب حين لا ينطبق شيء.</p>
 </div>
 
 <div class="step">
@@ -70,7 +70,7 @@
 <details class="instructor">
   <summary>للمدرّب</summary>
   <ul>
-    <li>المرجع: <code>labs/solutions/note_reference.md</code> و<code>labs/solutions/note_obligations_reference.csv</code> (17 سطرًا: 6 الآن، 1 التالي، 8 قيد المتابعة، 2 لا ينطبق)، وقوة الصفوف في <code>labs/solutions/change_table_reference.csv</code>.</li>
+    <li>المرجع: <code>labs/solutions/note_reference.md</code> و<code>labs/solutions/note_obligations_reference.csv</code> (17 سطرًا: 6 الآن، 1 التالي، 7 قيد المتابعة، 3 لا ينطبق)، وقوة الصفوف في <code>labs/solutions/change_table_reference.csv</code>.</li>
     <li>الفاحص: <code>uv run labs/solutions/check_note.py</code> متبوعًا بجدول المشارك. يطبع البنود الخمسة والأسطر الأربعة التي يجب أن تلتقطها كل مذكرة. تجتاز المذكرة بالبنود الخمسة، وفي صفحة واحدة تقرؤها أنت.</li>
     <li>الأسطر الأربعة: وَنيس في الاتحاد الأوروبي (الإعلام، الآن)؛ وَنيس في الصين (التدابير الصينية، الآن)؛ خط التوليد في الاتحاد الأوروبي (تأكيد المورد بالوسم بحلول 2 ديسمبر 2026)؛ فرز المتقدمين في الاتحاد الأوروبي (التالي، 2 ديسمبر 2027).</li>
     <li>الأخطاء الشائعة: الموعد القديم 2 أغسطس 2026 لفرز المتقدمين؛ الإطار الوطني أو المشروع في «الآن»؛ ترك الصين لأن الشريك هو الناشر؛ أن يعتمد الكاتب سطرًا كتبه.</li>

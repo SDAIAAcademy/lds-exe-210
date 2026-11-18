@@ -8,8 +8,8 @@
 
 The five points are the course's own checklist (labs/files/checklist.md). The script checks what
 a table can show; the trainer still reads the note for sense and for the one-page rule. It also
-lists which of the four lines every note must catch are missing. The starting file (a header and
-no lines) fails every point and does not crash. Exit code 0 when all five points pass, 1 otherwise.
+lists which of the four lines every note must catch are missing. The starting file (one line per
+system and market, owner filled) passes coverage only and does not crash. Exit code 0 when all five points pass, 1 otherwise.
 """
 import csv
 import datetime as dt
@@ -56,7 +56,9 @@ def check(path, drafter=None):
             problems[2].append(f"{where}: no clause")
         # 3 force of the row; nothing advisory or draft in now or next
         force = key["rows"].get(r.get("row"))
-        if force and r.get("force") != force:
+        if not r.get("force"):
+            problems[3].append(f"{where}: no force")
+        elif force and r.get("force") != force:
             problems[3].append(f"{where}: {r.get('row')} is {force}, the note says '{r.get('force')}'")
         if force in ("استرشادي", "مشروع") and r.get("horizon") in ("الآن", "التالي"):
             problems[3].append(f"{where}: an {force} row placed in {r.get('horizon')}")

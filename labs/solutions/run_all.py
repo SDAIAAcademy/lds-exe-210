@@ -11,7 +11,8 @@
    empty starting sheet scores 0 without an error; a sheet that falls for the planted errors
    loses exactly those claims.
 3. Lab 1.2: the reference note passes the five points and catches the four must-catch lines;
-   the empty starting table fails without an error; a note that keeps the old EU date for the
+   the starting table (one line per system and market) fails all but
+   coverage without an error; a note that keeps the old EU date for the
    screening tool and lets the drafter approve fails points 4 and 5.
 4. The horizons: every reference line in now or next is on the right side of the next edition.
 Paths in the output are relative to the repository.
@@ -100,7 +101,7 @@ def main():
     assert ok, out
     start = LABS / "files" / "note_obligations.csv"
     ok0, out0 = quiet(cn.check, start)
-    assert not ok0 and "0 of 5" in out0, out0
+    assert not ok0 and "PASS 1" in out0 and "1 of 5" in out0, out0
     with tempfile.TemporaryDirectory() as d:
         bad = Path(d) / "bad.csv"
         with open(note, encoding="utf-8-sig", newline="") as f:
@@ -114,7 +115,7 @@ def main():
             w.writerows(rows)
         okb, outb = quiet(cn.check, bad)
         assert not okb and "FAIL 5" in outb and "missing: S4" in outb, outb
-    print(f"PASS lab 1.2: {rel(note)} passes 5 of 5 and catches 4 of 4; {rel(start)} fails without error; "
+    print(f"PASS lab 1.2: {rel(note)} passes 5 of 5 and catches 4 of 4; {rel(start)} passes coverage only, without error; "
           "the old EU date with a self-approving drafter fails")
 
     nxt = dt.date.fromisoformat(key["next_edition"])

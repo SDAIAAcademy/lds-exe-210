@@ -142,7 +142,7 @@ AI Regulation Update: National and Global Briefing
 
 - [The White House: Executive Order 14365, Ensuring a National Policy Framework for Artificial Intelligence (11 ديسمبر 2025)](https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/)
 - [إدارة الفضاء الإلكتروني الصينية: تدابير وسم المحتوى المولد بالذكاء الاصطناعي (人工智能生成合成内容标识办法)](https://www.cac.gov.cn/2025-03/14/c_1743654684782215.htm)
-- [التدابير المؤقتة لإدارة خدمات التفاعل الشبيه بالإنسان (人工智能拟人化互动服务管理暂行办法)، كما نشرها مكتب الفضاء الإلكتروني في مقاطعة جيانغسو](https://www.jswx.gov.cn/zhengce/fagui/202604/t20260410_1322320.shtml)
+- [إدارة الفضاء الإلكتروني الصينية: التدابير المؤقتة لإدارة خدمات التفاعل الشبيه بالإنسان بالذكاء الاصطناعي (人工智能拟人化互动服务管理暂行办法)](https://www.cac.gov.cn/2026-04/10/c_1777558395078289.htm)
 - [Council of Europe: Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law (CETS No. 225)](https://rm.coe.int/1680afae3c)
 <!-- /academy:sources -->
 
