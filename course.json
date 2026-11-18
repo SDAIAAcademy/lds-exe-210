@@ -9,7 +9,7 @@
     "ar": "مستجدات تنظيم الذكاء الاصطناعي: إحاطة وطنية وعالمية",
     "en": "AI Regulation Update: National and Global Briefing"
   },
-  "tagline": "REPLACE: سطر واحد تحت العنوان: ما يستطيع المشارك فعله بعد المقرر",
+  "tagline": "تعرف ما تغيّر في تنظيم الذكاء الاصطناعي داخل المملكة وفي أسواق التصدير، وتفصل الملزم عن الاسترشادي والمشروع، وتتحقق من ملخص المساعد بندًا بندًا، وتكتب لوحدتك مذكرة انطباق من صفحة واحدة",
   "description": "إحاطة مؤرخة بما تغير في تنظيم الذكاء الاصطناعي منذ الإصدار السابق، تبدأ بالأنظمة واللوائح الوطنية ثم الأنظمة الأجنبية التي تهم المصدّرين. يتحقق المشاركون من ملخص أعده الذكاء الاصطناعي لنص تنظيمي جديد بمقارنته بنصه الأصلي، ويكتبون مذكرة انطباق من صفحة واحدة. تُتناول المواءمة التفصيلية في المقرر LDS-AIG-202.",
   "track": "executives",
   "level": 200,
@@ -42,8 +42,8 @@
     }
   ],
   "case_study": {
-    "name": "REPLACE: اسم الجهة الافتراضية التي تعمل عليها كل المختبرات",
-    "summary": "REPLACE: جملتان عن دراسة الحالة وبياناتها الاصطناعية"
+    "name": "استوديوهات قَمْرة للألعاب",
+    "summary": "استوديو سعودي افتراضي لتطوير الألعاب ونشرها في الرياض، يبيع ألعابه في المملكة والاتحاد الأوروبي والولايات المتحدة، وفي الصين عبر شريك نشر محلي مرخّص. لقطاع المنتجات والنشر فيه أربعة أنظمة ذكاء اصطناعي: الشخصية الرفيقة «وَنيس» داخل اللعبة، وخط توليد الأصوات والرسوم، والإشراف الآلي على دردشة اللاعبين، وأداة فرز المتقدمين للوظائف. كل ما في الحالة مخترع ومولّد ببذرة ثابتة؛ أما النصوص التنظيمية فحقيقية، يُحال إليها بعناوينها الرسمية وتاريخ قراءتها."
   },
   "format": "primer",
   "format_note": "مدخل تعريفي: إحاطة في نصف يوم، تُعاد كل ستة أشهر",
@@ -59,24 +59,99 @@
     {
       "id": "day1",
       "kind": "day",
-      "title": "REPLACE: موضوع هذه الوحدة في كلمات قليلة",
+      "title": "ما الذي تغيّر، وماذا نفعل به",
       "deck": "slides/day1.html",
       "sessions": [
         {
-          "title": "REPLACE: عنوان الجلسة 1",
+          "title": "ما الذي تغيّر في المملكة",
+          "summary": "قراءة إحاطة مؤرخة، وثلاث درجات لقوة النص، وإنفاذ حماية البيانات وضوابط الأمن السيبراني، والأطر الاسترشادية والمشروعات، ثم التحقق من ملخص مساعد بندًا بندًا",
           "outcomes": [
-            "REPLACE: ما يستطيع المشارك فعله بعد هذه الجلسة؛ واذكر في lo نواتج تعلم المقرر التي تخدمها"
+            "تميّز الملزم من الاسترشادي من المشروع بالسمات التي تحسم ذلك، وتسأل: ملزم لمن؟",
+            "تعرف ما تغيّر في إنفاذ حماية البيانات وفي ضوابط الأمن السيبراني والأطر الوطنية خلال نافذة الإصدار",
+            "تتحقق من ملخص أعده مساعد لنص جديد، وتسم كل ادعاء بأنه صحيح أو خاطئ أو غير مسند مع بنده"
           ],
-          "lo": []
+          "lo": [
+            "LO1",
+            "LO2"
+          ],
+          "minutes": 90,
+          "lab": {
+            "id": "1.1",
+            "title": "التحقق من ملخص مساعد لمشروع سياسة الذكاء الاصطناعي المسؤول",
+            "summary": "تقرأ مشروع سياسة الذكاء الاصطناعي المسؤول الذي طرحته سدايا على منصة «استطلاع»، وتطلب من مساعدك ملخصًا له، ثم تسم ثلاثة عشر ادعاءً في ملخص بديل كُتب للمقرر بأنها صحيحة أو خاطئة أو غير مسندة، مع البند الذي يحسم كل ادعاء.",
+            "minutes": 30,
+            "href": "D1_1_verify_summary.html",
+            "steps": [
+              {
+                "text": "افتح المشروع وحدّد حالته وتاريخه وأقسامه",
+                "minutes": 4
+              },
+              {
+                "text": "اطلب من مساعدك ملخصًا للمشروع",
+                "minutes": 5
+              },
+              {
+                "text": "سِم ادعاءات الملخص البديل الثلاثة عشر مع بنودها",
+                "minutes": 14
+              },
+              {
+                "text": "سِم ثلاثة ادعاءات من ملخص مساعدك",
+                "minutes": 4
+              },
+              {
+                "text": "اكتب جملتين مصححتين للفريق التنفيذي",
+                "minutes": 3
+              }
+            ],
+            "stretch": "اطلب من مساعدك أن يذكر البند الذي يسند كل ادعاء، ثم تحقق: هل البنود التي ذكرها موجودة، وهل تقول ما نسبه إليها؟"
+          }
         },
         {
-          "title": "REPLACE: عنوان الجلسة 2",
+          "title": "الأنظمة الأجنبية، ثم ماذا نفعل",
+          "summary": "لماذا يصل القانون الأجنبي إلى المصدّر السعودي، وقانون الذكاء الاصطناعي الأوروبي ومواعيده المؤجلة، والصكوك الأمريكية والصينية والتعاهدية، ثم الآن والتالي وقيد المتابعة، والمسؤولون ومواعيد المراجعة",
           "outcomes": [
-            "REPLACE: ما يستطيع المشارك فعله بعد هذه الجلسة؛ واذكر في lo نواتج تعلم المقرر التي تخدمها"
+            "تبيّن متى يسري نص أجنبي على منتج سعودي، وما الموعد النافذ اليوم لكل التزام أوروبي",
+            "تضع كل التزام في «الآن» أو «التالي» أو «قيد المتابعة» بتاريخه",
+            "تكتب مذكرة انطباق من صفحة واحدة لكل التزام فيها مسؤول ومعتمِد وموعد مراجعة"
           ],
-          "lo": []
+          "lo": [
+            "LO1",
+            "LO3"
+          ],
+          "minutes": 90,
+          "lab": {
+            "id": "1.2",
+            "title": "مذكرة الانطباق لقطاع المنتجات والنشر",
+            "summary": "تقرأ أنظمة الذكاء الاصطناعي الأربعة في قطاع المنتجات والنشر بقَمْرة وأسواقها، وتحدد قوة كل صف في جدول التغييرات، ثم تكتب مذكرة انطباق من صفحة واحدة: الالتزامات، والمسؤولون، والتواريخ، وتفحصها بقائمة التحقق الخماسية.",
+            "minutes": 30,
+            "href": "D1_2_applicability_note.html",
+            "steps": [
+              {
+                "text": "اقرأ أنظمة الوحدة الأربعة وجدول التغييرات",
+                "minutes": 4
+              },
+              {
+                "text": "حدّد قوة كل صف: ملزم أو استرشادي أو مشروع",
+                "minutes": 5
+              },
+              {
+                "text": "اكتب الالتزامات لكل نظام وسوق مع البند",
+                "minutes": 10
+              },
+              {
+                "text": "ضع كل التزام في أفقه مع تاريخه ومسؤوله ومعتمِده وموعد مراجعته",
+                "minutes": 6
+              },
+              {
+                "text": "افحص المذكرة بالبنود الخمسة وتبادلها مع زميلك",
+                "minutes": 5
+              }
+            ],
+            "stretch": "أضف إلى المذكرة الصفوف التي ستتغير لو اعتُمدت سياسة الذكاء الاصطناعي المسؤول كما في مشروعها"
+          }
         }
-      ]
+      ],
+      "subtitle": "إصدار مؤرخ: قُرئت كل المصادر في 18 نوفمبر 2026"
     }
   ],
   "labs": {
@@ -94,7 +169,121 @@
   ],
   "checks": {
     "sessions_per_day": 2,
-    "session_lab": false,
-    "lab_minutes": null
-  }
+    "session_lab": true,
+    "lab_minutes": 30
+  },
+  "sources": [
+    {
+      "group": "الأنظمة والأطر الوطنية (قُرئت في 18 نوفمبر 2026)",
+      "items": [
+        {
+          "title": "سدايا: نظام حماية البيانات الشخصية",
+          "url": "https://sdaia.gov.sa/ar/SDAIA/about/Documents/PersonalDataProtectionLawAr.pdf"
+        },
+        {
+          "title": "SDAIA: Personal Data Protection Law",
+          "url": "https://sdaia.gov.sa/en/SDAIA/about/Documents/PersonalDataProtectionLaw.pdf"
+        },
+        {
+          "title": "سدايا: اللائحة التنفيذية لنظام حماية البيانات الشخصية",
+          "url": "https://sdaia.gov.sa/ar/SDAIA/about/Documents/ImplementingRegulationPersonalDataProtectionLawAr.pdf"
+        },
+        {
+          "title": "SDAIA: Implementing Regulation of the Personal Data Protection Law",
+          "url": "https://sdaia.gov.sa/en/SDAIA/about/Documents/ImplementingRegulationPersonalDataProtectionLaw.pdf"
+        },
+        {
+          "title": "سدايا: القواعد المنظمة لتراخيص أنشطة إصدار شهادات الاعتماد وأنشطة التدقيق والفحص (الإصدار 1.0، 2026)",
+          "url": "https://sdaia.gov.sa/ar/SDAIA/about/Files/CertificatesControllersProcessorsAuditingInspectionPersonalDataProcessingActivities-ar.pdf"
+        },
+        {
+          "title": "سدايا: القواعد المنظمة لإصدار شهادات الاعتماد لجهات التحكم وجهات المعالجة (الإصدار 1.0، 2026)",
+          "url": "https://sdaia.gov.sa/ar/SDAIA/about/Files/RulesGoverningIssuanceAccreditationCertificatesControllersProcessers-ar.pdf"
+        },
+        {
+          "title": "سدايا: مبادئ أخلاقيات الذكاء الاصطناعي",
+          "url": "https://sdaia.gov.sa/ar/SDAIA/about/Documents/ai-principles.pdf"
+        },
+        {
+          "title": "سدايا: الإطار الوطني لإدارة مخاطر الذكاء الاصطناعي، الملخص التنفيذي (أبريل 2026)",
+          "url": "https://sdaia.gov.sa/ar/MediaCenter/KnowledgeCenter/ResearchLibrary/ExecutiveSummaryAr.pdf"
+        },
+        {
+          "title": "SDAIA: National AI Risk Management Framework, Executive Summary (SDAIA-P145EN)",
+          "url": "https://sdaia.gov.sa/en/MediaCenter/KnowledgeCenter/ResearchLibrary/ExecutiveSummaryEn.pdf"
+        },
+        {
+          "title": "سدايا: مبادئ الذكاء الاصطناعي التوليدي للجهات الحكومية",
+          "url": "https://sdaia.gov.sa/ar/SDAIA/about/Files/GenAIGuidelinesForGovernmentARCompressed.pdf"
+        },
+        {
+          "title": "SDAIA: Generative AI Guidelines for Government",
+          "url": "https://sdaia.gov.sa/en/SDAIA/about/Files/GenAIGuidelinesForGovernmentENCompressed.pdf"
+        },
+        {
+          "title": "الهيئة الوطنية للأمن السيبراني: الضوابط الأساسية للأمن السيبراني (ECC-2:2024)",
+          "url": "https://nca.gov.sa/en/regulatory-documents/controls-list/ecc/"
+        },
+        {
+          "title": "الهيئة الوطنية للأمن السيبراني: طرح «إرشادات الأمن السيبراني للذكاء الاصطناعي» لمرئيات العموم",
+          "url": "https://nca.gov.sa/ar/news/ai-cybersecurity-guidelines/"
+        }
+      ]
+    },
+    {
+      "group": "مشروعات مطروحة لاستطلاع الآراء",
+      "items": [
+        {
+          "title": "سدايا: مشروع سياسة الذكاء الاصطناعي المسؤول، منصة «استطلاع» (آخر تحديث 29 مارس 2026)",
+          "url": "https://istitlaa.ncc.gov.sa/ar/Transportation/NDMO/ResponsibleAIPolicy/Pages/default.aspx"
+        },
+        {
+          "title": "سدايا: مشروع سياسة الذكاء الاصطناعي أولًا، منصة «استطلاع» (آخر تحديث 24 يونيو 2026)",
+          "url": "https://istitlaa.ncc.gov.sa/ar/Transportation/NDMO/AIFirstPolicy/Pages/default.aspx"
+        }
+      ]
+    },
+    {
+      "group": "الاتحاد الأوروبي",
+      "items": [
+        {
+          "title": "Regulation (EU) 2024/1689 (Artificial Intelligence Act)",
+          "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+        },
+        {
+          "title": "Regulation (EU) 2026/1744 (Digital Omnibus on AI)",
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+        },
+        {
+          "title": "Commission Implementing Decision (EU) 2026/2274 (EN 18286:2026)",
+          "url": "https://eur-lex.europa.eu/eli/dec_impl/2026/2274/oj"
+        }
+      ]
+    },
+    {
+      "group": "الولايات المتحدة والصين والصكوك التعاهدية",
+      "items": [
+        {
+          "title": "The White House: Executive Order 14365, Ensuring a National Policy Framework for Artificial Intelligence (11 ديسمبر 2025)",
+          "url": "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/"
+        },
+        {
+          "title": "Colorado General Assembly: SB26-189, Automated Decision-Making Technology",
+          "url": "https://leg.colorado.gov/bills/sb26-189"
+        },
+        {
+          "title": "إدارة الفضاء الإلكتروني الصينية: تدابير وسم المحتوى المولد بالذكاء الاصطناعي (人工智能生成合成内容标识办法)",
+          "url": "https://www.cac.gov.cn/2025-03/14/c_1743654684782215.htm"
+        },
+        {
+          "title": "التدابير المؤقتة لإدارة خدمات التفاعل الشبيه بالإنسان (人工智能拟人化互动服务管理暂行办法)، كما نشرها مكتب الفضاء الإلكتروني في مقاطعة جيانغسو",
+          "url": "https://www.jswx.gov.cn/zhengce/fagui/202604/t20260410_1322320.shtml"
+        },
+        {
+          "title": "Council of Europe: Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law (CETS No. 225)",
+          "url": "https://rm.coe.int/1680afae3c"
+        }
+      ]
+    }
+  ]
 }
